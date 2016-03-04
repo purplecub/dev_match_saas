@@ -16,4 +16,5 @@
 !/log/.keep
 /tmp
 
-# Ignore Sendgrid login info and Stripe keys
+# Ignore application configuration
+/config/application.yml
