@@ -15,3 +15,5 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore Sendgrid login info and Stripe keys
