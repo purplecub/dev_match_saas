@@ -30,11 +30,14 @@ gem 'jbuilder', '2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '0.4.0', group: :doc
 
-#Use Figaro to hide login credentials
+# Use Figaro to hide login credentials
 gem 'figaro'
 
-#Use FontAwesome for icons
+# Use FontAwesome for icons
 gem 'font-awesome-sass', '4.5.0'
+
+# Use Devise for user authentication
+gem 'devise'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
