@@ -13,4 +13,7 @@
             <%= link_to "Sign up with Pro", new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-success btn-lg btn-block' %>
         </div>
     </div>
+    <% if current_user %>
+        <%= link_to "Create profile!", new_user_profile_path(current_user) %>
+    <% end %>
 </div>
