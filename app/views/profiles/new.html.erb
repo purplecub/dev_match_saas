@@ -2,7 +2,7 @@
     <div class="col-md-8 col-md-offset-2">
         <div class="well">
             <h1>Create your profile</h1>
-            <p>Become a part of the DevMatch community and fill out your profile!</p>
+            <p>Become a part of the DevMatch community and fill out your profile!</p></br>
             <%= form_for @profile, url: user_profile_path do |f| %>
                 <div class="form-group">
                     <%= f.label :first_name %>
@@ -30,11 +30,12 @@
                 </div>
                 <div class="form-group">
                     <%= f.label :description %>
-                    <%= f.text_field :description, class: 'form-control' %>
+                    <%= f.text_area :description, class: 'form-control' %>
                 </div>
                 <div class="form-group">
                     <%= f.submit "Update Profile", class: 'btn btn-primary' %>
                 </div>
+            <% end %>
         </div>
     </div>
 </div>
