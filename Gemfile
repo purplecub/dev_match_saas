@@ -42,6 +42,9 @@ gem 'devise'
 # Use Stripe to manage payment information
 gem 'stripe', '1.37.0'
 
+# Use Paperclip for image uploads
+gem "paperclip", "4.3.6"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
