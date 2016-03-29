@@ -10,8 +10,21 @@
     border-radius: 4px;
 }
 
-.profile-pic img {
+img {
     border-radius: 50%;
+}
+
+.user-index-avatar {
+    height: 50px;
+    width: 50px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.user-show-avatar {
+    height: 128px;
+    width: 128px;
     -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    4px 4px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.75);
